@@ -1,7 +1,7 @@
 === Craggy Island ===
 Contributors: fathertedcrilly
 Tags: father ted, ireland, comedy, fun
-Stable tag: 0.0.1
+Stable tag: 1.0.0
 Tested up to: 4.0
 Requires at least: 4.0
 License: GPLv3
@@ -15,9 +15,9 @@ Add a random classic Father Ted quote to the header of your WordPress dashboard 
 
 == Contribute ==
 
-If you’re interested in contributing to Craggy Island then head over to the [Craggy Island GitHub Repository](TBC) and contribute your ideas.
+If you’re interested in contributing to Craggy Island then head over to the [Craggy Island GitHub Repository](https://github.com/fathertedcrilly/craggyisland) and contribute your ideas.
 
-Want to add a new language to Craggy Island? Lovely! You can contribute via [translate.wordpress.org](TBC).
+Want to add a new language to Craggy Island? Lovely! Please contribute using the usual methods on the plugin page at wp.org.
 
 == Frequently Asked Questions ==
 
@@ -32,5 +32,5 @@ That would be a ecumenical matter.
 
 == Changelog ==
 
-= 0.0.1 - 2018-12-12 =
+= 1.0.0 - 2018-12-12 =
 * Initial plugin
