@@ -1,7 +1,7 @@
 === Craggy Island ===
 Contributors: fathertedcrilly
 Tags: father ted, ireland, comedy, fun
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Tested up to: 5.0
 Requires at least: 4.0
 License: GPLv3
@@ -29,12 +29,19 @@ That would be an ecumenical matter.
 
 That would be an ecumenical matter.
 
+= Do you have a roadmap for new features? =
+
+I love my brick.
+
 == Screenshots ==
 
 1. Quote display.
 2. Dashboard widget.
 
 == Changelog ==
+
+= 1.0.1 - 2018-12-14 =
+* Updates to documentation
 
 = 1.0.0 - 2018-12-12 =
 * Initial plugin

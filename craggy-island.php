@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Craggy Island
-Version: 1.0.0
+Version: 1.0.1
 Description: Adds classic Father Ted quotes and more to your admin dashboard.
 Author: Father Ted Crilly (& Father Dougal Mcguire)
 Author URI: https://github.com/fathertedcrilly
