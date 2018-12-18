@@ -106,7 +106,7 @@ if( !class_exists( 'CraggyIsland' ) ) {
 					__( "That would be a ecumenical matter.", "craggy-island" ),
 					__( "Spider-Baby- It's got the body of a spider, and the mind of a baby.", "craggy-island" ),
 					__( "It's Ireland's largest lingerie section' I understand.", "craggy-island" ),
-					__( "We're all going to heaven lads, wahey!!", "craggy-island" ),
+					__( "We're all going to heaven lads, wahey!!!", "craggy-island" ),
 				);
 
 				if( $return_type == 'all' ) {
