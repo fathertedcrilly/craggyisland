@@ -117,7 +117,7 @@ if( !class_exists( 'CraggyIsland' ) ) {
 					__( "Is there anything to be said for another mass?", "craggy-island" ),
 					__( "Who would he be like? Hitler or one of those mad fellas?", "craggy-island" ),
 					__( "Cowboys ted, a bunch of cowboys.", "craggy-island" ),
-					__( "That would be a ecumenical matter.", "craggy-island" ),
+					__( "That would be an ecumenical matter.", "craggy-island" ),
 					__( "Spider-Baby- It's got the body of a spider, and the mind of a baby.", "craggy-island" ),
 					__( "It's Ireland's largest lingerie section' I understand.", "craggy-island" ),
 					__( "We're all going to heaven lads, wahey!!!", "craggy-island" ),
