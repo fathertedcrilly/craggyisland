@@ -21,6 +21,8 @@ if( !class_exists( 'CraggyIsland' ) ) {
 			add_action( 'admin_notices', array( $this, 'display_quote' ) );
 			add_action( 'admin_head', array( $this, 'display_quote_css' ) );
 			add_action( 'wp_dashboard_setup', array( $this, 'add_dashboard_widget' ) );
+			
+			add_shortcode( 'craggy_island', array( $this, 'create_shortcode' ) );
 
 		}
 
@@ -34,6 +36,18 @@ if( !class_exists( 'CraggyIsland' ) ) {
 				array( $this, 'dashboard_widget_function' ) // Display function.
 			);
 
+		}
+		
+		public function create_shortcode() {
+			
+			// Shortcode quote display
+			
+			$quote = $this->get_quotes( 'single' );
+
+			if( !empty( $quote ) ) {
+				echo '<p id="craggy-island-quote">' . $quote . '</p>';
+			}
+			
 		}
 
 		public function display_quote() {
@@ -103,10 +117,16 @@ if( !class_exists( 'CraggyIsland' ) ) {
 					__( "Is there anything to be said for another mass?", "craggy-island" ),
 					__( "Who would he be like? Hitler or one of those mad fellas?", "craggy-island" ),
 					__( "Cowboys ted, a bunch of cowboys.", "craggy-island" ),
-					__( "That would be a ecumenical matter.", "craggy-island" ),
+					__( "That would be an ecumenical matter.", "craggy-island" ),
 					__( "Spider-Baby- It's got the body of a spider, and the mind of a baby.", "craggy-island" ),
 					__( "It's Ireland's largest lingerie section' I understand.", "craggy-island" ),
 					__( "We're all going to heaven lads, wahey!!!", "craggy-island" ),
+					__( "I hear you’re a racist now, Father?", "craggy-island" ),
+					__( "I love egg.", "craggy-island" ),
+					__( "If people aren't even going to shave their babies before they come out, I mean...", "craggy-island" ),
+					__( "I'm not a fascist, I'm a priest.", "craggy-island" ),
+					__( "Sheep, like all wool-bearing animals, instinctively travel north...", "craggy-island" ),
+					
 				);
 
 				if( $return_type == 'all' ) {
